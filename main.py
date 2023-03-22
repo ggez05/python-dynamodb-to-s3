@@ -21,7 +21,7 @@ def process_items(items):
     for item in items:
         imei = item['imei']
         created_at = item['created_at']
-        date_time = datetime.fromtimestamp(created_at)
+        date_time = datetime.fromtimestamp(int(created_at))
         year = date_time.strftime("%Y")
         month = date_time.strftime("%m")
         id = item['id']
