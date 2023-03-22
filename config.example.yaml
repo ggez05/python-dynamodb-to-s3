@@ -1,0 +1,10 @@
+dynamodb:
+  region_name: YOUR_DYNAMODB_REGION
+  table_name: YOUR_TABLE_NAME
+  aws_access_key_id: YOUR_DYNAMODB_ACCESS_KEY_ID
+  aws_secret_access_key: YOUR_DYNAMODB_SECRET_ACCESS_KEY
+s3:
+  region_name: YOUR_S3_REGION
+  bucket_name: YOUR_BUCKET_NAME
+  aws_access_key_id: YOUR_S3_ACCESS_KEY_ID
+  aws_secret_access_key: YOUR_S3_SECRET_ACCESS_KEY
